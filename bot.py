@@ -13,7 +13,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
-TOKEN = os.getenv("BOT_TOKEN", "8790092673:AAGPbl8HHTDxdPKQoHSApymLvnpni-5fDYw")
+TOKEN = os.getenv("BOT_TOKEN", "")
 bot = Bot(token=TOKEN)
 storage = MemoryStorage()
 dp = Dispatcher(storage=storage)
