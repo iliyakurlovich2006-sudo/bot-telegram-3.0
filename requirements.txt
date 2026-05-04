@@ -1,4 +1,2 @@
 aiogram
 aiohttp
-aiosqlite
-libsql-experimental
